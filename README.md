@@ -1,2 +1,1 @@
-# 14-homework
-Tech Blog 
+# Tech Blog
