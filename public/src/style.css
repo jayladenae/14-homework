@@ -6,7 +6,7 @@ body {
 header {
     background-color: #243340;
     width: 100%;
-    height: 10em;
+    height: 11em;
 }
 
 nav {
@@ -18,23 +18,30 @@ nav {
     display: inline-flex;
 }
 
-#nav-home, #nav-dashboard, #nav-login, #nav-logout {
+#nav-home, #nav-dashboard {
     font-family: 'Mohave', sans-serif;
     font-size: 1.5em;
     margin: 0px 35px 0px 35px;
     color: #ece68c;
 }
 
-#nav-logout {
-    float: right;
+#loginBtn, #logoutBtn {
+    font-size: 1.5em;
+    font-family: 'Mohave', sans-serif;
+    margin: 0px 35px 0px 35px;
+    color: #ece68c;
+    background-color: #6e3819;
+    border-radius: 5px;
 }
+
+
 
 #logo {
     font-size: 2em;
     font-family: 'Gugi', cursive;
     color: #243340;
     border-radius: 5px;
-    margin-left: 2em;
+    margin-left: 6em;
     background-color: #ece68c;
     width: 7.7em;
     padding: 10px;
@@ -49,4 +56,91 @@ footer {
     width: 100%;
     background-color: #243340;
     color: #ece68c;
+}
+
+/* SIGN-UP CSS */
+a {
+    color: #6e3819; 
+    font-size: 1em; 
+    float: left;
+    padding-left: 5px;
+  }
+
+#sign-upWrap{
+    display: flex;
+    justify-content: center;
+}
+
+#signupFormLabel{
+    font-family: 'Gugi', cursive;
+    float: left;
+    font-size: 2em ;
+    color: #ece68c;
+    background-color: #243340;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 98.5%;
+}
+#signUpForm {
+    background-color: #ece68c;
+    margin-top: 20vh;
+    width: 40em;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    border: #6e3819 solid 5px ;
+}
+
+.form-input{
+    padding: 3px;
+    font-size: 1em;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#signUpFormBtn {
+    width: 5em;
+    font-family: 'Mohave', sans-serif;
+    margin: 5px;
+    font-size: 1.1em;
+    color: #ece68c;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #243340;
+}
+
+/* Login CSS */
+
+#loginWrap {
+    display: flex;
+    justify-content: center;
+}
+
+#loginFormLabel{
+    font-family: 'Gugi', cursive;
+    float: left;
+    font-size: 2em ;
+    color: #ece68c;
+    background-color: #243340;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 98.5%;
+}
+#loginForm {
+    background-color: #ece68c;
+    margin-top: 20vh;
+    width: 40em;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    border: #6e3819 solid 5px ;
+}
+
+#loginFormBtn {
+    width: 5em;
+    font-family: 'Mohave', sans-serif;
+    margin: 5px;
+    font-size: 1.1em;
+    color: #ece68c;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #243340;
 }
