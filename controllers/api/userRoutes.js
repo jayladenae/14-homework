@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../../models/user');
+const { User } = require('../../models');
 
 router.post('/', async (req, res) => {
   try {
@@ -28,10 +28,10 @@ router.post('/login', async (req, res) => {
       return;
     }
 
-    console.log('userData: ' + userData.user_password)
-    console.log('rec-body: ' + req.body.user_password)
+    console.log('userData: ' + userData.password)
+    console.log('rec-body: ' + req.body.password)
 
-    const validPassword = await userData.checkPassword(req.body.user_password);
+    const validPassword = await userData.checkPassword(req.body.password);
 
     console.log(validPassword)
 
