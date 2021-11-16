@@ -1,32 +1,24 @@
 {
-  "name": "14-homework",
+  "name": "new-hw-14",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node seeds/seed.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jayladenae/14-homework.git"
+    "start": "node server.js",
+    "seed": "node seed/seed.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jayladenae/14-homework/issues"
-  },
-  "homepage": "https://github.com/jayladenae/14-homework#readme",
   "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.2",
-    "dotenv": "^10.0.0",
+    "bcrypt": "^5.0.0",
+    "connect-session-sequelize": "^7.0.4",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-handlebars": "^5.3.4",
-    "express-session": "^1.17.2",
-    "handlebars": "^4.7.7",
-    "mysql2": "^2.3.2",
-    "sequelize": "^6.8.0"
+    "express-handlebars": "^5.2.0",
+    "express-session": "^1.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
   }
 }
