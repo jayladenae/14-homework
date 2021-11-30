@@ -43,3 +43,5 @@ THEN I am able to view comments but I am prompted to log in again before I can a
  ### Credits 
  - Ismeny Saguilan
  
+ ### License
+![MIT License](https://img.shields.io/apm/l/PACK?style=plastic)
